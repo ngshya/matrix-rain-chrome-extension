@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Matrix Rain New Tab",
+    "version": "1.0",
+    "chrome_url_overrides" : {
+        "newtab": "matrix.html"
+    },
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
+}
