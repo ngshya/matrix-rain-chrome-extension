@@ -21,7 +21,7 @@ function matriRain() {
     }
     var speed = [];
     for (var i = 0; i < columns; i++) {
-      speed[i] = Math.floor(Math.random() * 3);
+      speed[i] = Math.random() * 3;
     }
     // Setting up the draw function
     function draw() {
