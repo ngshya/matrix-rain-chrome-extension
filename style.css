@@ -1,7 +1,24 @@
 * {margin: 0; padding: 0}
+
 body {
   background: #000;
   overflow-y: hidden; 
   overflow-x: hidden; 
 }
+
+#query-container{
+  display: block;
+}
+
+#query-string {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: darkgreen;
+  text-align: center;
+  font-size: 36px;
+}
+
 canvas {display: block;}
