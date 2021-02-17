@@ -17,7 +17,7 @@ function matrixRain() {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
   // Setting up the letters
-  var letters = Math.random().toString(36).substring(2, 27) + Math.random().toString(36).substring    (2, 27);
+  var letters = Math.random().toString(36).substring(2, 27) + Math.random().toString(36).substring(2, 27);
   letters = letters.split('');
   // Setting up the columns
   var fontSize = 10,
